@@ -22,6 +22,9 @@ const transactionSchema = new mongoose.Schema({
     toAccount : {
       type : Number,
       ref : "account"
+    },
+    amount : {
+        type : Number,
     }
 },   
     {timestamps: true}
